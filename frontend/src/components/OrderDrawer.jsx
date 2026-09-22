@@ -144,7 +144,7 @@ export default function OrderDrawer({ order, onClose, onUpdate }) {
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 px-3.5 py-2 rounded-md border border-freight/40 text-freight-dark hover:bg-freight-soft text-sm font-medium transition-colors duration-200"
                     >
-                      <Download size={14} /> View Freight Invoice (PDF)
+                      <Download size={14} /> View
                     </a>
                   )}
                   {!canAdvance && !canDeliverAttempt && !canExceptionAct && !canBill && !canDownloadInvoice && (
